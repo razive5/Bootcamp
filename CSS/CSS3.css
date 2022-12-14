@@ -1,0 +1,11 @@
+/* Float in CSS */
+.image1{
+    width:300px;
+    height: 350px;
+    float:right;
+}
+.p1{
+border: 1px solid red;
+clear:right;
+overflow: auto;
+}
