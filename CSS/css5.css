@@ -1,0 +1,102 @@
+.diva{
+    width: 400px;
+    height: auto;
+    border: 25px solid blueviolet;
+   
+}
+
+
+.div1{
+    width: 402px;
+    height:30px;
+    background-color: pink;
+    
+    
+   
+    
+
+}
+.div2{
+    
+    width: 402px;
+    height: 500px;
+    background-color: rgb(110, 110, 199);
+   
+}
+.div3{
+    width: 402px;
+    height: 35px;  
+    background-color:pink ;
+}
+
+
+label{
+ width:100px;
+ display:inline-block;
+ margin-left: 10px;
+ margin-top: 10px;
+
+}
+
+.p1{
+    margin-left: 10px;
+}
+
+input:focus{
+    background-color: aqua;
+}
+.btn1{
+    
+    margin-left: 150px;
+    margin-top: 5px;
+    background-color: rgb(51, 100, 51);
+    border: 3px;
+    border-radius: 2px;
+    border-style: groove;
+    padding:2px;
+    cursor: pointer;
+    
+
+}
+
+.btn2{
+    background-color: brown;
+    border: 3px;
+    border-radius: 2px;
+    border-style: groove;
+    padding:2px;
+    cursor: pointer;
+
+    
+   
+}
+
+.btn1:hover{
+    background-color: aqua;
+    color: red;
+    border-radius:50px;
+
+    
+}
+
+.btn2:hover{
+    background-color: red;
+    color:gold;
+    border-radius:50px;
+}
+
+.link1{
+    text-decoration: none;
+    background-color: coral;
+    font-size: 15px;
+    padding: 4px 10px 4px 10px;
+    
+}
+
+.link1:hover{
+    background-color: maroon;
+    color:beige;
+    border-radius:70px;
+}
+
+
