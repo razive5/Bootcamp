@@ -1,0 +1,395 @@
+header{
+    text-align: center;
+    font-size: 40px;
+    font-family:'Brush Script MT',cursive;
+    color:bisque;
+    background-color: black;
+}
+hedaer:hover{
+    text-overflow: 0 5px maroon;
+}
+
+
+.d1{
+    width: auto;
+    height: 50px;;
+    background: rgb(227,239,241);
+    background: linear-gradient(3deg, rgba(227,239,241,1) 0%, rgba(162,82,23,1) 100%);
+    margin-top: -18px;
+    border-right: 50px linear-gradient(3deg, rgba(227,239,241,1) 0%, rgba(162,82,23,1) 100%);
+    position:sticky;
+   
+}
+
+.d1{
+    position:sticky;
+    top: -2px;
+}
+
+.d1 a{
+    text-decoration: none;
+    color:black;
+    
+}
+
+.d1 a:hover{
+    color: maroon;
+    border-bottom: 2px solid maroon;
+}
+
+.d1 li{
+    display:inline-block;
+    padding: 10px;
+    margin-left: 100px;
+    font-size: 25px;
+    
+}
+
+.d2{
+    width:auto;
+    height:auto;
+    display: none;
+    position: absolute;
+   
+    
+}
+.d2 li{
+    display: block;
+    margin-left: -15px;
+   
+}
+.menu1:hover  .d2{
+    background-color: rgb(96,88,86); 
+    display: block;
+    border-radius: 5px 15px 5px 5px;
+    border: 1px solid bisque;
+   
+
+}
+
+.d2 a:hover{
+    background-color:bisque;
+    padding: 5px;
+    border-radius: 5px 15px 5px 5px;
+}
+
+/* Top bit is for header and nav bar---------------------------------------------------------------------------- */
+
+
+.div1 .head1{
+    text-align: center;
+    font-size: 20px;
+}
+
+.div1{
+    text-align: center;
+    background-color: rgb(96,88,86); 
+    font-family: cursive;
+    color:black;
+    margin-top: -20px;
+}
+
+.div1 .head2{
+    margin-top: -20px;
+}
+
+.diva{
+    background-color: rgb(96,88,86); 
+    height: 900px;
+    margin-top: -19px;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+/*  rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+     */
+
+     .p1{
+        text-align: center;
+        font-size: 20px;
+        font-family:cursive;
+        margin-top: -15px;
+     }
+
+
+    .div2, .div3, .div4, .div5, .div6, .div7{
+        
+        width:350px;
+        height: 300px;
+        background-color:blanchedalmond;
+        margin:50px ;
+        align-items: center;
+        border-radius: 15px;
+        margin-right: 100px;
+        
+    }
+.div2{
+    
+    
+    text-align: center;
+    
+    
+    
+}
+
+.div2 a{
+    text-decoration: none;
+    color:maroon;
+}
+.div2 h4{
+    color: maroon;
+    display:none;
+}
+
+.div2 img{
+    transition: transform 1s;
+}
+.div2:hover img{
+    
+    transform:translateY(5%);
+    
+
+}
+
+.div2:hover h4{
+    color:maroon;
+    display: contents;
+    
+
+}
+
+.div3 h4{
+    color: maroon;
+    display:none;
+}
+
+.div3 img{
+    transition: transform 1s;
+}
+.div3:hover img{
+    
+    transform:translateY(5%);
+    
+
+}
+
+.div3:hover h4{
+    color:maroon;
+    display: contents;
+    
+
+}
+    
+.div4 h4{
+    color: maroon;
+    display:none;
+}
+
+.div4 img{
+    transition: transform 1s;
+}
+.div4:hover img{
+    
+    transform:translateY(5%);
+    
+
+}
+
+.div4:hover h4{
+    color:maroon;
+    display: contents;
+    
+
+}
+
+
+.div4 a{
+    text-decoration: none;
+    color: maroon;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+.div4 h4{
+    color: maroon;
+    display:none;
+}
+
+.div4 img{
+    transition: transform 1s;
+}
+.div4:hover img{
+    
+    transform:translateY(5%);
+    
+
+}
+
+.div4:hover h4{
+    color:maroon;
+    display: contents;
+    
+
+}
+
+
+/* --------------------------------------------------------------------------------------------- */
+
+
+.div5 h4{
+    color: maroon;
+    display:none;
+}
+
+.div5 img{
+    transition: transform 1s;
+}
+.div5:hover img{
+    
+    transform:translateY(5%);
+    
+
+}
+
+.div5:hover h4{
+    color:maroon;
+    display: contents;
+    
+
+}
+
+/* ------------------------------------------------------------------------------------------------- */
+
+
+.div6 h4{
+    color: maroon;
+    display:none;
+}
+
+.div6 img{
+    transition: transform 1s;
+}
+.div6:hover img{
+    
+    transform:translateY(5%);
+    
+
+}
+
+.div6:hover h4{
+    color:maroon;
+    display: contents;
+    
+
+}
+
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+
+.div7 h4{
+    color: maroon;
+    display:none;
+}
+
+.div7 img{
+    transition: transform 1s;
+}
+.div7:hover img{
+    
+    transform:translateY(5%);
+    
+
+}
+
+.div7:hover h4{
+    color:maroon;
+    display: contents;
+    
+
+}
+
+
+
+
+ 
+.div3{
+   
+    text-align: center;
+    
+}
+
+.div3 a{
+    text-decoration: none;
+    color:maroon;
+}
+
+
+
+.div4{
+    
+    text-align: center;
+    
+
+}
+
+.div4 a{
+    text-decoration: none;
+    color:maroon;
+}
+    
+.div5{
+    
+    text-align: center;
+    margin-top: -100px;
+}
+
+.div5 a{
+    text-decoration: none;
+    color:maroon;
+}
+
+.div6{
+
+    
+    text-align: center;
+    margin-top: -100px;
+}
+
+.div6 a{
+    text-decoration: none;
+    color:maroon;
+}
+
+
+.div7{
+    
+    text-align: center;
+    margin-top: -100px;
+}
+
+.div7 a{
+    text-decoration: none;
+    color:maroon;
+}
+
+
+
+
+
+.div8 h2{
+    color: rgb(67, 57, 4);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    margin-left: 50px;
+    
+   
+
+}
+
+.div8:hover h2{
+    background-color:maroon;
+    color:gold;
+    
+    
+}

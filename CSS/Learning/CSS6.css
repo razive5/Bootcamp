@@ -1,0 +1,85 @@
+header{
+    margin-top:  20px;
+    width:auto;
+    height:50px;
+    background-color: coral;
+    text-align: center;
+    font-size: larger;
+    vertical-align: middle;
+    line-height: 50px;
+    font-size: 50px;
+    color:maroon;
+}
+
+.div1{
+    width:100%;
+    height:40px;
+    background-color: rgb(226, 205, 43);
+    margin-top: -18px;
+    
+}
+
+.div1 ul li{
+    display:inline-block;
+    padding: 10px 20px;
+    
+   
+    
+}
+.div1 ul li a{
+    text-decoration: none;
+    color:maroon
+}
+
+.subreg{
+    background-color: gold;
+    display: none;
+    width:150px;
+    position:absolute;
+    }
+
+
+ 
+    .subreg a{
+        display: block;
+        padding:10px 20px;} 
+
+
+
+.div1 li:hover{
+    background-color:coral;
+}
+
+
+.reg:hover .subreg{
+    display:block;
+}
+
+.subreg a:hover{
+    background-color:coral;
+}
+/* ---------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
+
+
+.contact1{
+    width: 150px;
+    background-color:gold;
+    display:none;
+    position: absolute;
+}
+
+
+.contact1 a{
+    display:block;
+    padding: 10px 15px;
+}
+
+.contact:hover .contact1{
+    display:block;
+
+}
+
+.contact1 a:hover{
+    background-color: coral;
+}

@@ -1,0 +1,221 @@
+header{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Brush Script MT',cursive;
+    color:bisque;
+    background-color: black;
+}
+header:hover{
+    text-shadow:0px 5px maroon;
+}
+
+
+.d1{
+    width: auto;
+    height: 50px;;
+    background: rgb(227,239,241);
+    background: linear-gradient(3deg, rgba(227,239,241,1) 0%, rgba(162,82,23,1) 100%);
+    margin-top: -18px;
+    border-right: 50px linear-gradient(3deg, rgba(227,239,241,1) 0%, rgba(162,82,23,1) 100%);
+    position:sticky;
+   
+}
+
+.d1{
+    position:sticky;
+    top: -2px;
+}
+
+.d1 a{
+    text-decoration: none;
+    color:black;
+    
+}
+
+.d1 a:hover{
+    color: maroon;
+    border-bottom: 2px solid maroon;
+}
+
+.d1 li{
+    display:inline-block;
+    padding: 10px;
+    margin-left: 100px;
+    font-size: 25px;
+    
+}
+
+.d2{
+    width:auto;
+    height:auto;
+    display: none;
+    position: absolute;
+   
+    
+}
+.d2 li{
+    display: block;
+    margin-left: -15px;
+   
+}
+.menu1:hover  .d2{
+    background-color:  rgb(96,88,86);
+    border-radius: 5px 15px 5px 5px;
+    border: 1px solid bisque;
+    display: block;
+   
+
+}
+
+.d2 a:hover{
+    background-color:bisque;
+    padding: 5px;
+    border-radius: 5px 15px 5px 5px;
+}
+
+/* ---------------------------------------------------------------------- */
+
+.form1{
+    width: auto;
+    height:200px;
+    background-color: rgb(96,88,86);
+    vertical-align: middle;
+    line-height: 200px;
+    margin-top: -50px;
+}
+
+.p1{
+    font-size: 50px;
+   
+    text-align: center;
+    
+}
+
+select{
+    width:200px;
+    height:50px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 5px;
+    border: 5px groove pink;
+}
+
+.form1 input[type=submit]{
+    width:65px;
+    height:50px;
+    background-color: rgb(206, 196, 206);
+    border-radius: 5px;
+    border: 5px groove pink;
+    font-size:30px ;
+    margin-top: -5px;
+    text-align: center;
+}
+
+
+
+.form2{
+    background-color:rgb(96,88,86);
+    width: 503px;
+    height: 800px;
+    
+  
+}
+
+.form2 label{
+    width:100px;
+    display:inline-block;
+    margin: 10px;
+    
+    margin-left: 40px;
+    font-size: 20px;
+    
+    
+}
+
+.p2{
+    margin-left: 110px;
+    font-size: 30px;
+}
+
+.form2 input[type="text"]{
+    background-color: white;
+    border-radius: 5px 10px 5px 5px;
+    border: 5px groove pink;
+}
+
+.form2 input[type="date"]{
+    width: 170px;
+    background-color: white;
+    border-radius: 5px 10px 5px 5px;
+    border: 5px groove pink;
+
+}
+
+.form2 input[type="email"]{
+    background-color: white;
+    border-radius: 5px 10px 5px 5px;
+    border: 5px groove pink;
+}
+
+.form2 input[type="password"]{
+    background-color: white;
+    border-radius: 5px 10px 5px 5px;
+    border: 5px groove pink;
+}
+
+.form2 input[type="submit"]{
+    margin-left: 190px;
+    width: 90px;
+    height:28px;
+    border-radius: 5px;
+    border: 5px groove pink;
+    background-color:white;
+}
+
+.form2  input[type="checkbox"]{
+    background-color: white;
+    width: 25px;
+    height:20px;
+    margin-left: 40px;
+    background-color: white;
+    border-radius: 5px;
+   
+   
+    
+  
+    
+    
+}
+
+.p3{
+margin-left: 70px;
+font-size: 20px;
+margin-top: -25px;
+}
+    
+
+.div3{
+    width: 1001px;
+    height:800px;
+    background-color:rgb(96,88,86);
+    
+   
+   
+    margin-top: -800px;
+    margin-left: 502px;
+}
+
+.p4{
+    font-size:60px;
+    margin-left: 300px;
+    color: white;
+}
+
+.p4:hover{
+    color: maroon;
+}
+.div3 img{
+    border-top: 1px solid maroon;
+    border-left: 1px solid maroon;
+ 
+}

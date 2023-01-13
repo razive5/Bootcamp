@@ -1,0 +1,46 @@
+.pixel{
+    width:200px;
+    height:150;
+    background-color:blueviolet;
+}
+
+.em{
+    width:15em;
+    height:10em;
+    background-color:blue;
+}
+
+.rem{
+    width:15rem;
+    height:10rem;
+    background-color: red;
+}
+
+/* Shadow */
+.d1{
+    width:500px;
+    height:400px;
+    background-color: red;
+    font-size: 50px;
+    color: aliceblue;
+    box-shadow: -10px -10px 20px 20px rgb(165, 67, 67);
+    text-shadow: 5PX 5PX 2PX 2PX gold ;
+}
+
+
+
+.d2{width:500px;
+    height:400px;
+    background-color:yellow;
+}
+
+.d3{width:500px;
+    height:400px;
+    background-color:green;
+}
+
+@media(min-width:1000){
+    body{background-color: blue;}
+}
+
+

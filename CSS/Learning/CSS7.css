@@ -1,0 +1,89 @@
+
+header{
+    width:auto;
+    height:100px;
+    background-color:green;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+    color:red;
+    font-size: 60px;
+    border:10px groove red;
+    border-radius: 5px;
+  
+    
+    
+    
+}
+
+header:hover{
+    background-color: red;
+    color:green;
+    
+}
+
+.div1{
+    width:auto;
+    height: 100px;
+    background-color: red;
+    border:10px groove green;
+    border-radius: 5px;
+}
+
+.div1 ul li{
+    display:inline-block;
+    padding: 15px 30px;
+}
+
+.div1 ul li a{
+    text-decoration: none;
+    color:green;
+    font-size: 20px;
+}
+
+.div1 ul li:hover {
+    background-color:gold;
+    color:red;
+    font-size: 30px;
+    border-radius: 5px;
+   
+}
+/* ----------------------------------------------------------------- */
+/* ------------------------------------------------------------------ */
+
+.div2{
+    width: 150px;
+    height:200px;
+    background-color:red;
+    display: none;
+    position:absolute;
+   
+    
+
+}
+
+.div2 a{
+    display:block;
+    padding:10px 20px;
+}
+
+.list:hover .div2{
+   
+    display:block;
+    
+    
+}
+.div2 a:hover{
+    
+    background-color:gold;
+    color:red;
+    border-radius: 5px;
+    
+   
+}
+
+/* ------------------------------------------------------------------ */
+/* -------------------------------------------------------------------- */
+
+
+

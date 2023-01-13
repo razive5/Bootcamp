@@ -1,0 +1,270 @@
+header{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Brush Script MT',cursive;
+    color:bisque;
+    background-color: black;
+}
+header:hover{
+    text-shadow:0px 5px maroon;
+}
+
+
+
+.d1{
+    width: auto;
+    height: 50px;;
+    background: rgb(227,239,241);
+    background: linear-gradient(3deg, rgba(227,239,241,1) 0%, rgba(162,82,23,1) 100%);
+    margin-top: -18px;
+    border-right: 50px linear-gradient(3deg, rgba(227,239,241,1) 0%, rgba(162,82,23,1) 100%);
+    position:sticky;
+   
+}
+
+.d1{
+    position:sticky;
+    top: -2px;
+}
+
+.d1 a{
+    text-decoration: none;
+    color:black;
+    
+}
+
+.d1 li{
+    display:inline-block;
+    padding: 10px;
+    margin-left: 100px;
+    font-size: 25px;
+    
+}
+.d1 a:hover{
+    color: maroon;
+    border-bottom: 2px solid maroon;
+}
+.d2{
+    width:auto;
+    height:auto;
+    display: none;
+    position: absolute;
+   
+    
+}
+.d2 li{
+    display: block;
+    margin-left: -15px;
+   
+}
+.menu1:hover  .d2{
+    background-color:rgb(227,239,241);
+    background: linear-gradient(3deg, rgba(227,239,241,1) 0%, rgba(162,82,23,1) 100%);
+    
+    border-radius: 5px 15px 5px 5px;
+    
+    display: block;
+    
+    
+   
+
+}
+
+.d2 a:hover{
+    background-color:bisque;
+    padding: 5px;
+    border-radius: 5px 15px 5px 5px;
+}
+/* ----------------------Header and Nav bar code----------------------------------------- */
+
+
+.diva{
+    width:auto;
+    height:50px;
+    background-color:  rgb(96,88,86); 
+    margin-top: -16px;
+    vertical-align: middle;
+    line-height: 50px;
+    border-bottom: 1px solid maroon;
+}
+
+.diva a{
+    text-decoration: none;
+    color:black;
+    
+}
+
+.diva li{
+
+    display: inline-block;
+    margin-left: 160px;
+    font-size: 15px;
+}
+
+.diva a:hover{
+    color: maroon;
+    border-bottom:5px soild maroon;
+}
+
+
+
+.div1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -25PX;
+    
+    
+}
+
+.div2{
+    width:263px;
+    height:935px;
+    background-color:  rgb(96,88,86); 
+    text-align: center;
+    padding: 5px;
+    
+   
+
+    
+}
+
+
+.div3{
+    width:auto;
+    height: 935px;
+    background-color: rgb(96,88,86); 
+   
+}
+.div4, .div5,.div6, .div7, .div8, .div9, .div10{
+    width:900px;
+    height: 50px;
+    background-color: rgb(96,88,86); 
+    font-size: 20px;
+    border-bottom:1px groove bisque;
+    margin-top: 15px;
+    margin-left: 80px;
+}
+
+.div3 input[type=button]{
+    width:25px;
+    height:15px;
+    background-color: bisque;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 5px 5px black;
+   
+}
+
+.div3 input[type=number]{
+    width:80px;
+    height:25px;
+    border-top-right-radius: 10px;
+}
+
+.div3 input[type=submit]{
+    width:80px;
+    height:25px;
+    background-color: bisque;
+    border: none;
+    box-shadow: 5px 5px black;
+    border-radius: 5px;
+   
+}
+
+.div4 input[type=submit]:hover{
+    
+    background-color: skyblue;
+    box-shadow: 5px 5px black;
+}
+
+.div5 input[type=submit]:hover{
+    
+    background-color: skyblue;
+    box-shadow: 5px 5px black;
+}
+
+.div6 input[type=submit]:hover{
+    
+    background-color: skyblue;
+    box-shadow: 5px 5px black;
+}
+
+.div7 input[type=submit]:hover{
+    
+    background-color: skyblue;
+    box-shadow: 5px 5px black;
+}
+
+.div8 input[type=submit]:hover{
+    
+    background-color: skyblue;
+    box-shadow: 5px 5px black;
+}
+
+.div9 input[type=submit]:hover{
+    
+    background-color: skyblue;
+    box-shadow: 5px 5px black;
+}
+
+.div10 input[type=submit]:hover{
+    
+    background-color: skyblue;
+    box-shadow: 5px 5px black;
+}
+
+.div3 button{
+    width:25px;
+    height:15px;
+    background-color: gold;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 5px 5px black;
+
+}
+
+
+
+.div11{
+    width:250px;
+    height:935px;
+    background-color: rgb(96,88,86); 
+  
+    
+
+}
+.div11 img{
+    margin:15px;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+    
+.div11 p{
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.div12 .head1{
+    text-align: center;
+    font-size: 20px;
+}
+
+.div12{
+    text-align: center;
+    background-color: rgb(96,88,86); 
+    font-family: cursive;
+    color:black;
+    margin-top: -20px;
+}
+
+.div12.head2{
+    margin-top: -20px;
+}
+
+.div13{
+    width:900px;
+    height: 50px;
+    background-color: rgb(96,88,86); 
+
+}

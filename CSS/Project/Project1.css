@@ -1,0 +1,157 @@
+header{
+    width: 1520px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Brush Script MT',cursive;
+    color:bisque;
+    background-color: black;
+}
+header:hover{
+    text-shadow:0px 5px maroon;
+}
+
+
+
+.d1{
+    width: 1520px;
+    height: 50px;;
+    background: rgb(227,239,241);
+    background: linear-gradient(3deg, rgba(227,239,241,1) 0%, rgba(162,82,23,1) 100%);
+    margin-top: -18px;
+    border-right: 50px linear-gradient(3deg, rgba(227,239,241,1) 0%, rgba(162,82,23,1) 100%);
+    position:sticky;
+   
+}
+
+.d1{
+    position:sticky;
+    top: -2px;
+}
+
+.d1 a{
+    text-decoration: none;
+    color:black;
+    
+}
+
+.d1 li{
+    display:inline-block;
+    padding: 10px;
+    margin-left: 100px;
+    font-size: 25px;
+    
+}
+.d1 a:hover{
+    color: maroon;
+    border-bottom: 2px solid maroon;
+}
+.d2{
+    width:auto;
+    height:auto;
+    display: none;
+    position: absolute;
+   
+    
+}
+.d2 li{
+    display: block;
+    margin-left: -15px;
+   
+}
+.menu1:hover  .d2{
+    background-color:rgb(227,239,241);
+    background: linear-gradient(3deg, rgba(227,239,241,1) 0%, rgba(162,82,23,1) 100%);
+    
+    border-radius: 5px 15px 5px 5px;
+    
+    display: block;
+    
+    
+   
+
+}
+
+.d2 a:hover{
+    background-color:bisque;
+    padding: 5px;
+    border-radius: 5px 15px 5px 5px;
+}
+
+
+/* ----------------------------------------------------------------------------Starting d3-----------------------------------------------------*/
+
+.d3{
+   width: 1000px;
+   height:600px;
+   background-color: black;
+} 
+
+.d3 image{
+    width:auto;
+  }  
+.d3 p{
+    margin-top: -430px;
+   text-align: center;
+    margin-left: 600px;
+    font-size: 50px;
+    color: black;
+    text-shadow: 3px 3px bisque;
+    position: sticky;
+     
+}  
+    
+
+.h1{
+   color: rgb(107, 66, 15);
+   padding: 10px;
+}
+.p1{
+    color:rgb(107, 66, 15);
+    text-align: justify;
+    padding: 10px;
+}
+    
+.a1{text-decoration: none;
+    color:rgb(107, 66, 15);
+    
+
+}
+
+.a1:hover{
+    color:maroon;
+    font-style:italic;
+}
+
+
+.div8 h2{
+    color: rgb(67, 57, 4);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    margin-left: 0px;
+    
+   
+
+}
+
+.div8:hover h2{
+    background-color:maroon;
+    color:gold;
+    
+    
+}
+
+@media  screen and (max-width: 480px){
+    header{font-size: 2rem; color:blue; background-color:black; 
+        width: auto; text-align: center;}
+    #media{ width:auto; margin-left: 10px; margin-right: 10px;}
+    #media a{font-size: 20px; margin-left:-140px; color:gold;  }
+    #media .d2{background-color: black;}
+    
+    .img1{display: none;}
+    .d3 p{ display: none;}
+    
+    .p1{font-size: 10px; padding: 10px;}
+    .div8{display:none;}
+    
+    
+}

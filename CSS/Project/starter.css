@@ -1,0 +1,287 @@
+header{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Brush Script MT',cursive;
+    color:bisque;
+    background-color: black;
+}
+
+
+header:hover{
+    text-shadow:0px 5px maroon;
+}
+.d1{
+    width: auto;
+    height: 50px;;
+    background: rgb(227,239,241);
+    background: linear-gradient(3deg, rgba(227,239,241,1) 0%, rgba(162,82,23,1) 100%);
+    margin-top: -18px;
+    border-right: 50px linear-gradient(3deg, rgba(227,239,241,1) 0%, rgba(162,82,23,1) 100%);
+    position:sticky;
+   
+}
+
+
+.d1{
+    position:sticky;
+    top: -2px;
+}
+
+.d1 a{
+    text-decoration: none;
+    color:black;
+    
+}
+.d1 a:hover{
+    color: maroon;
+    border-bottom: 2px solid maroon;
+}
+.d1 li{
+    display:inline-block;
+    padding: 10px;
+    margin-left: 100px;
+    font-size: 25px;
+    
+}
+
+.d2{
+    width:auto;
+    height:auto;
+    display: none;
+    position: absolute;
+   
+    
+}
+.d2 li{
+    display: block;
+    margin-left: -15px;
+   
+}
+.menu1:hover  .d2{
+    background-color:rgb(227,239,241);
+    background: linear-gradient(3deg, rgba(227,239,241,1) 0%, rgba(162,82,23,1) 100%);
+    display: block;
+   
+
+}
+
+.d2 a:hover{
+    background-color:bisque;
+    padding: 5px;
+    border-radius: 5px 15px 5px 5px;
+}
+
+/* Header and navigation bar---------------------------------------------------------------------------------------------------*/
+.diva{
+    width:auto;
+    height:50px;
+    background-color:rgb(227,239,241);
+    background: linear-gradient(3deg, rgba(227,239,241,1) 0%, rgba(162,82,23,1) 100%);
+    margin-top: -16px;
+    vertical-align: middle;
+    line-height: 50px;
+    border-bottom: 1px solid maroon;
+    font-size: 15px;
+   
+}
+
+.diva a{
+    text-decoration: none;
+    color:black;
+    
+}
+
+.diva li{
+
+    display: inline-block;
+    margin-left: 160px;
+   
+}
+
+.diva a:hover{
+    color: maroon;
+    border-bottom:5px soild maroon;
+}
+
+.st{
+    width:auto;
+    height:50px;
+    background-color:bisque;
+    margin-top: -20px;
+    vertical-align: middle;
+    line-height: 50px;
+
+}
+
+.st h2{
+    text-align: center;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px rgb(221, 7, 7);
+
+}
+
+.st h2::before{
+    content: '\007E';
+}
+
+.st h2::after{
+    content: '\007E';
+}
+
+.diva1{
+    background-color:bisque;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -25px;
+}
+
+
+
+.ck, .lk, .pk, .ps, .p, .s{
+    width:300px;
+    height: 410px;
+    background-color:rgb(90, 89, 89);
+    margin: 100px;
+    align-items: center;
+    border-radius: 10px;
+    
+
+   
+    
+}
+
+.ck, .lk, .pk, .ps, .p, .s, a{
+    text-decoration: none;
+    text-align: center;
+    color:gold;
+    font-size: 20px;
+}
+
+.ck{
+    font-size:10px;
+    color:yellowgreen;
+    font-size: medium;
+    
+}
+
+.ck img{
+    margin-top: 10px;
+}
+
+
+.lk{
+    font-size:10px;
+    color:yellowgreen;
+    font-size: medium;
+}
+
+.lk img{
+    margin-top: 10px;
+}
+
+.pk{
+    font-size:10px;
+    color:yellowgreen;
+    font-size: medium;
+}
+
+.pk img{
+    margin-top: 10px;
+}
+
+.ps{
+    font-size:10px;
+    color:yellowgreen;
+    font-size: medium;
+    margin-top: -20px;
+}
+
+.ps img{
+    margin-top: 10px;
+}
+
+.p{
+    font-size:10px;
+    color:yellowgreen;
+    font-size: medium;
+    margin-top: -20px;
+    
+    }
+
+
+.p img{
+    margin-top: 10px;
+}
+
+.s{
+    font-size:10px;
+    color:yellowgreen;
+    font-size: medium;
+    margin-top: -20px;
+}
+
+.s img{
+    margin-top: 10px;
+}
+
+input[type=submit]{
+    background-color:bisque;
+    border: none;
+    color:maroon;
+    padding: 4px 4px;
+    border-radius: 2px;
+    box-shadow: 0 6px pink;
+    text-align: center;
+    font-size: 12px;
+    font-family: cursive;
+}
+
+input[type=submit]:hover{
+    background-color:gold;
+}
+
+input[type=number]{
+    background-color: bisque;
+    border:none;
+}
+
+input[type=number]:hover{
+    background-color: gold;
+    
+}
+
+.div8 h2{
+    color: rgb(67, 57, 4);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    margin-left: 80px;
+    margin-top: -25px;
+    
+   
+
+}
+
+.div8:hover h2{
+    background-color:maroon;
+    color:gold;
+    
+    
+}
+
+
+.div12 .head1{
+    
+    text-align: center;
+    font-size: 15px;
+}
+
+.div12{
+    text-align: center;
+    background-color: bisque;
+    font-family: cursive;
+    color:black;
+    margin-top: -20px;
+}
+
+

@@ -1,0 +1,265 @@
+header{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Brush Script MT',cursive;
+    color:bisque;
+    background-color: black;
+}
+header:hover{
+    text-shadow:0px 5px maroon;
+}
+
+
+.d1{
+    width: auto;
+    height: 50px;;
+    background: rgb(227,239,241);
+    background: linear-gradient(3deg, rgba(227,239,241,1) 0%, rgba(162,82,23,1) 100%);
+    margin-top: -18px;
+    border-right: 50px linear-gradient(3deg, rgba(227,239,241,1) 0%, rgba(162,82,23,1) 100%);
+    position:sticky;
+   
+}
+
+.d1{
+    position:sticky;
+    top: -2px;
+}
+
+.d1 a{
+    text-decoration: none;
+    color:black;
+    
+}
+
+.d1 a:hover{
+    color: maroon;
+    border-bottom: 2px solid maroon;
+   
+}
+
+.d1 li{
+    display:inline-block;
+    padding: 10px;
+    margin-left: 100px;
+    font-size: 25px;
+    
+}
+
+.d2{
+    width:auto;
+    height:auto;
+    display: none;
+    position: absolute;
+    
+   
+    
+}
+.d2 li{
+    display: block;
+    margin-left: -15px;
+   
+}
+.menu1:hover  .d2{
+    background-color:  rgb(96,88,86);
+    border-radius: 5px 15px 5px 5px;
+    border: 1px solid bisque;
+    display: block;
+    
+   
+   
+
+}
+
+.d2 a:hover{
+    background-color: bisque;
+    padding: 5px;
+    border-radius: 5px 15px 5px 5px;
+}
+/* code header and nav bar----------------------------------------------- */
+
+.div1{
+    width: 500px;
+    
+   
+  
+}
+
+.div2{
+    width: 500px;
+    height:100px;
+
+    margin-top: -450px;
+    color:black;
+    margin-left: 550px;
+    text-align: center;
+  
+
+}
+
+.div2 h1{
+    font-size: 50px;
+    text-shadow: 4px 4px bisque;
+}
+
+.p1{
+    font-size: 20px;
+    margin-top: -45px;
+    text-shadow: 1px 1px bisque ;
+}
+
+.div3{
+    width:auto;
+    height:280px;
+    margin-top: 313px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(96,88,86);
+    border: 1px solid maroon;
+    
+   
+}
+
+.div3 h1{
+    text-shadow: 3px 3px bisque;
+}
+
+
+h3{
+    margin-top: -20px;
+    
+}
+
+h4{
+    margin-top:-20px ;
+}
+
+.div4{
+    width: 500px;
+    height: 250px;
+    text-align: justify;
+   
+    font-size: 18px;
+    background-color: rgb(96,88,86);  
+    margin-top: -255px; 
+    border: 1 px solid maroon;
+   
+    
+    
+    
+}
+
+.div4 .p4{
+    margin-left: 10px;
+}
+
+.div4 input[type=checkbox]{
+    width:20px;
+    height: 18px;
+    margin-bottom: -100px;
+}
+
+
+.div5{
+    width:500px;
+    height: 250px;
+    background-color: rgb(96,88,86);   
+    margin-left: 503px;
+    margin-top: -250px;
+    
+   
+
+}
+
+.form1 label{
+    width: 200px;
+    display:inline-block;
+    margin: 10px;
+    text-align: center;
+   
+    
+    
+}
+
+.form1 input[type=text]    {
+    width: 200px;
+    border-radius: 5px 15px 5px 5px;
+   
+}
+
+.form1 input[type=email]    {
+    width: 200px;
+    border-radius: 5px 15px 5px 5px;
+    
+}
+.form1 input[type=datetime-local]    {
+    width: 200px;
+    border-radius: 5px 15px 5px 5px;
+}
+
+.form1 input[type=number]    {
+    width: 200px;
+    border-radius: 5px 15px 5px 5px;
+}
+    
+
+.form1 .button1{
+    
+    width:70px;
+    height:25px;
+    margin-left: 230px;
+    box-shadow: 0 7PX grey;
+    border:none;
+    border-radius: 5px 15px 5px 5px;
+}
+
+.form1 .button1:hover{
+    background-color: rgb(133, 5, 26);
+    color: gold;
+}
+
+.diva1{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.div6{
+    background-color:  rgb(96,88,86); 
+    margin-top: -17px;
+    
+
+}
+
+.div7{
+    width:500px;
+    height:500px;
+    background-color:  rgb(96,88,86); 
+    margin-left: 300px;
+    text-align: center;
+    
+    
+
+}
+
+.div8{
+    width:500px;
+    height:500px;
+    background-color:  rgb(96,88,86); 
+    margin-left: 20px;
+   border:10px solid  rgb(96,88,86); 
+
+}
+
+.div6{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.div7 h1{
+    color:rgb(43, 37, 2) ;
+}
+.div7 .p1{
+    color:rgb(75, 64, 1);
+    font-size: 30px;
+}

@@ -1,0 +1,144 @@
+header{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Brush Script MT',cursive;
+    color:bisque;
+    background-color: black;
+}
+
+header:hover{
+    text-shadow: 0 5px maroon;
+
+}
+
+
+.d1{
+    width: auto;
+    height: 50px;;
+    background-color:  rgb(227,239,241);
+    background: linear-gradient(3deg, rgba(227,239,241,1) 0%, rgba(162,82,23,1) 100%);
+    margin-top: -18px;
+    position:sticky;
+   
+}
+
+.d1{
+    position:sticky;
+    top: -2px;
+}
+
+.d1 a{
+    text-decoration: none;
+    color:black;
+    
+}
+
+.d1 a:hover{
+    color: maroon;
+    border-bottom: 2px solid maroon;
+}
+
+.d1 li{
+    display:inline-block;
+    padding: 10px;
+    margin-left: 100px;
+    font-size: 25px;
+    
+}
+
+.d2{
+    width:auto;
+    height:auto;
+    display: none;
+    position: absolute;
+   
+    
+}
+.d2 li{
+    display: block;
+    margin-left: -15px;
+   
+}
+.menu1:hover  .d2{
+    background-color: rgb(227,239,241);
+    background: linear-gradient(3deg, rgba(227,239,241,1) 0%, rgba(162,82,23,1) 100%);
+    
+    border-radius: 5px 15px 5px 5px;
+    
+    
+    display: block;
+   
+
+}
+
+.d2 a:hover{
+    background-color:bisque;
+    padding: 5px;
+    border-radius: 5px 15px 5px 5px;
+}
+/* ------------------------------for header and navigation bar------------------------------------------- */
+
+.div1{
+    width: 200px;
+    height:400px;
+    background-color:rgb(198, 185, 185);  
+    margin-top:-25px;
+}
+
+
+
+.div2{
+    width: 400px;
+    height:400px;
+    text-align: center;
+    font-size: 20px;
+
+
+    
+}
+
+h2{
+    font-family: 'Brush Script MT',cursive;
+    text-shadow: 2px 2px bisque;
+}
+
+
+span{
+    font-family:'Brush Script MT',cursive;
+}
+
+
+.div3{
+    width: 200px;
+    height:400px;
+    background-color:rgb(198, 185, 185);
+    margin-top: -25px;
+    margin-right: 52px;
+    
+}
+
+
+
+.d3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+    
+.div4{
+    width:auto;
+    height:50px;
+    background-color:rgb(81, 80, 80);
+    margin-top: 175px;
+    box-shadow: 0 20px grey;
+    border-radius: 5px;
+}
+
+.s:hover{
+    color:gold;
+    font-size: 80px;
+    text-shadow: 5px maroon;
+    
+}
+

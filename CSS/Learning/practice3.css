@@ -1,0 +1,62 @@
+.div1{
+    width:500px;
+    height:200px;
+    background-color: red;
+    border: 5px groove gold;
+    border-radius: 50px;
+    text-align: center;
+    color:blue;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bolder;
+    font-stretch: stretch;
+    vertical-align: middle;
+    line-height: 200px;
+    transform: translate(100px, 80px);
+    transition: width 5s;
+    transition-delay: 2s;
+    transition-duration: 10s;
+    transition-property: width;
+   
+    
+}
+
+.div1:hover{
+    width:1000px;
+    
+}
+
+
+.div2{
+    width:150px;
+    height:120px;
+    background-color: gold;
+    border:5px groove red;
+    border-radius: 50%;
+    animation-name: div2;
+    animation-duration: 15s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    
+    margin-left: 100px;
+    margin-top: 300px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 120px;
+}
+
+@keyframes div2{
+   0%{background-color:gold; left:0px; top:0px ;}
+   25%{background-color: blue; left:300px; top:0px}
+   50%{background-color: green; left:300px; top:800px}
+   65%{background-color: blueviolet;left:200px; top: 800px;}
+   80%{background-color:black; left:100px; top:1000px}
+   100%{background-color: gold;left:0px; top:0px}
+}
+
+.div3{
+    column-count: 3;
+}

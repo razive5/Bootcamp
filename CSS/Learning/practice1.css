@@ -1,0 +1,319 @@
+
+.d1{
+    width: auto;
+    height: 50px;;
+    background-color: rgb(29, 217, 29);
+    margin-top: -20px;
+}
+
+.d1 a{
+    text-decoration: none;
+    
+}
+
+.d1 li{
+    display:inline-block;
+    padding: 10px;
+    margin-left: 100px;
+    font-size: 25px;
+}
+
+
+.img1{
+    float:left;
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+.p1{
+    text-align: justify;
+}
+
+.p2{
+    text-align: justify;
+    
+    margin-inline-start: 100px;
+}
+
+
+.tab1{
+    border: 2px solid red;
+}
+
+
+.t,th, td{
+    border: 2px solid blue;}
+
+    .t{
+        border: 2px solid red;
+}
+.th{border:2px solid green;}
+
+.td{
+    border: 2px solid red;
+    background-color: blue;
+    color:brown;
+   
+}
+
+.td:hover{
+    border-radius: 50%;
+    background-color: red;
+    color:green;
+
+}
+
+table{
+    border:2px solid green;
+}
+
+.tab2{
+    width:400px;
+    background-color: aqua;
+    border:5px groove red;
+    border-radius: 10px;
+    color:red;
+    text-align: left;
+    border-collapse: collapse;
+    padding:10px;
+  
+ 
+}
+
+.tab2, caption{
+    color: blue;
+    font-size: larger;
+}
+
+.tab2 tr:nth-child(even){
+    background-color: wheat;
+}
+
+.tab2 tr:nth-child(odd){
+    background-color: grey;
+}
+
+.tab2 th {
+    background-color: rgb(73, 165, 42);
+}
+.tab3{
+    border-collapse: collapse;
+    width:400px
+}
+
+.tab3{
+    width: 400px;
+    height:auto;
+    text-align: left;
+    background-color: grey;
+    
+}
+
+.tab4{
+    width: 400px;
+    
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.tab5{
+    width:600px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.tab6{
+    width:600px;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: black;
+    color: blue;
+    border: 15px groove red;
+
+
+}
+thead{
+    background-color: rgb(67, 65, 59);
+    color: black;
+}
+
+tfoot{
+    background-color: aqua;
+
+}
+
+.tab6:hover{
+    border-radius: 50%;
+    background-color: aqua;
+    color:red;
+    
+}
+.Apple{
+    text-decoration: none;
+}
+
+.Apple:hover{
+    background-color: red;
+    image-rendering: auto;
+    border-radius: 50%;
+    
+}
+
+
+
+fieldset{
+    width: 450px;
+    height:auto;
+    background-color: aqua;
+    margin-left: 50px;
+    margin-right: 50px;
+   
+   
+}
+
+label{
+    width: 100px;
+    display:inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    
+
+}
+
+.p1{
+    margin-left:10px ;
+
+}
+
+input:focus{
+    background-color: rgb(109, 204, 139);
+}
+
+.btn1{
+    margin-left: 350px;
+   
+}
+.btn2:hover{
+    background-color: brown;
+    border-radius: 50%;
+
+
+}
+
+.f1{
+    background-color: white;
+    height: auto;
+}
+
+.t1{
+    margin-top: -10px;
+    border: 10px groove grey;
+}
+
+.div10, .div11, .div12, .div13, .div14, input[type=button]{
+    width:150px;
+    height:25px;
+    background-color: red;
+    border-radius: 60%;
+   
+}
+
+.div16, .div17, .div18, .div19, .div20, .div21, .div22, .div23, .div24, .div25{
+    width:200px;
+    height:100px;
+    background-color: blue;
+    text-align: center;
+    margin: 10px;
+    vertical-align: middle;
+    line-height: 100px;
+
+    
+   
+}
+.div19:nth-of-type(1){
+    flex-grow: 1;
+}
+
+.div19:nth-of-type(2){
+    flex-grow: 2;
+}
+
+.div19:nth-of-type(3){
+    flex-grow: 1;
+}
+.div15{
+    width:auto;
+    height:1000px;
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:space-around;
+   
+}
+
+.a{
+    width:5rem;
+    height:5rem;
+    background-color: blue;
+}
+
+.b{
+    width:5em;
+    height:5em;
+    background-color: blue;
+}
+
+.c{
+    width:5vh;
+    height:5vh;
+    background-color: blue;
+}
+
+.d{
+    width:5vw;
+    height:5vw;
+    background-color: blue;
+}
+
+.e{
+    width:5px;
+    height:5px;
+    background-color: blue;
+}
+
+.f{
+    width:5%;
+    height:5%;
+    background-color: blue;
+}
+
+.div26{
+    width:100px;
+    background-color: red;
+}
+
+.div27{
+    width:100px;
+    background-color:blue;
+}
+
+.div28{
+    width: 150px;
+    background-color: brown;
+}
+
+.div29{
+    width:50%;
+    background-color: red;
+}
+
+.div30{
+    width: 100px;
+    background-color: blue;
+}
+
+.div31{
+    height:50vh;
+    background-color: blue;
+}
